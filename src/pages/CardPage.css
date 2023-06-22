@@ -1,0 +1,50 @@
+
+.card_flex {
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    height: 100vh;
+   justify-content: center;
+   margin-top: -5rem;
+}
+
+.action_div {
+    width: 100%;
+   }
+   
+
+   .eye_btn {
+    
+    color: #fff;
+    margin: 0 0.2rem;
+   }
+   .input_form {
+       background: #f9f9f9;
+       color: #171D1C;
+       border: 2px solid #515751;
+       height: 2.5rem;
+       width: 100%;
+       min-width: 350px;
+       font-family: 'Cairo', sans-serif;
+       text-align: right;
+       padding: 1.5rem 2.5rem;
+   }
+   .input_form:hover ,  .input_form:active {
+    border: 2px solid #fdce6a;
+   }
+   
+   .input_form::placeholder {
+    opacity: 0.6;
+   }
+
+   .canva_image {
+    max-height: 26rem;
+    border-radius: 20px;
+   }
+
+   @media ( max-width: 500px) {
+    .canva_image {
+        max-height: 22rem;
+        border-radius: 20px;
+       }
+   }

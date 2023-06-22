@@ -1,0 +1,115 @@
+
+
+.fotter_section {
+    position: relative;
+}
+.footer_area {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50% , -50%);
+}
+.footer_subheadline {
+    color: #fff;
+    font-size: 18px;
+    font-family: 'Cairo';
+    font-weight: 300;
+}
+
+.icons_footer_div {
+    position: fixed;
+    bottom: 1%;
+    left: 0;
+    right: 0;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: auto;
+}
+
+.single_icon_footer {
+    background: #f5f5f5;
+    border-radius: 500px;
+    padding: 0.5rem;
+    text-align: center;
+    margin: 0rem 0.5rem;
+    border: 2px solid #1b242d7a;
+    transition: background 0.6s ease-in;
+    box-shadow: rgba(161, 161, 161, 0.1) 0px 1px 0px, rgba(208, 208, 208, 0.1) 0px 8px 24px, rgba(160, 160, 160, 0.1) 0px 16px 48px !important;
+}
+
+.single_icon_footer:hover {
+    background: #ababab;
+}
+
+.single_icon_footer img {
+    max-height: 2rem;
+    cursor: pointer;
+}
+
+.div__footer img {
+    max-height: 8rem;
+    border-radius: 500px;
+    width: 8rem;
+    margin-left: 0.9rem;
+}
+
+.footer_dazzler_icon {
+    max-height: 8rem;
+    width: 8rem;
+    background: #fff;
+    padding: 5px;
+    border-radius: 250px;
+}
+.footer_fairouza_icon {
+    max-height: 8rem;
+    width: 8rem;
+    background: #fff;
+    padding: 5px;
+    border-radius: 250px;
+}
+
+@media (max-width: 500px) {
+    .single_icon_footer {
+        padding: 0.2rem;
+    }
+    .single_icon_footer img {
+        max-height: 1.2rem;
+    }
+    .div__footer > .section_headline {
+        font-size: 18px;
+    }
+    .footer_dazzler_icon {
+        max-height: 5rem;
+        width: 5rem;
+      
+    }
+   
+
+    .div__footer img {
+        max-height: 5rem;
+      
+        width: 5rem;
+    
+    }
+}
+
+@media (max-width: 300px) {
+   
+    .div__footer > .section_headline {
+        font-size: 18px;
+    }
+    .footer_dazzler_icon {
+        max-height: 3.9rem;
+        width: 3.9rem;
+      
+    }
+   
+
+    .div__footer img {
+        max-height: 3.9rem;
+      
+        width: 3.9rem;
+    
+    }
+}
